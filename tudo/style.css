@@ -1,18 +1,24 @@
-h1 {
-    color: white;
-    /* Adicionar mais estilos conforme necessário */
+*{
+    margin: 0;
+    padding: 0;
 }
-p {
-    color: white;
-    /* Adicionar mais estilos conforme necessário */
+
+body {
+    background-color: #03071e; 
+    color: #f8f9fa;
 }
-button {
-    background-color: ciano;
-    color: white;
-    border: none;
-    /* Adicionar mais estilos conforme necessário */
+
+.titulo-destaque {
+    color: #d00000;
 }
-img {
-    /* Adicionar estilos para formatar a imagem */
+
+.titulo-destaque-dois {
+    color: #e85d04;
 }
-/* Adicionar mais estilos conforme necessário */
+
+a{
+    border: 1px solid #9d0208;
+    padding: 10px;
+    background-color: #dc2f02;
+    color: #03071e;
+}
