@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /*faz com que o elemento filho não saia para fora do pai*/
 }
 
 body {
+    height: 100vh; /*interessante para colocar em padrão*/
     background-color: #03071e; 
     color: #f8f9fa;
 }
@@ -12,8 +14,8 @@ body {
     color: #d00000;
 }
 
-.titulo-destaque-dois {
-    color: #e85d04;
+.texto-destaque-dois {
+    color: #d00000;
 }
 
 a{
@@ -21,4 +23,10 @@ a{
     padding: 10px;
     background-color: #dc2f02;
     color: #03071e;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
