@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*faz com que o elemento filho não saia para fora do pai*/
@@ -8,6 +8,8 @@ body {
     height: 100vh; /*interessante para colocar em padrão*/
     background-color: #03071e; 
     color: #f8f9fa;
+    overflow: hidden;
+
 }
 
 .titulo-destaque {
@@ -16,17 +18,37 @@ body {
 
 .texto-destaque-dois {
     color: #d00000;
+    margin-bottom: 10px;
 }
 
-a{
+a {
     border: 1px solid #9d0208;
     padding: 10px;
     background-color: #dc2f02;
     color: #03071e;
 }
 
-.apresentacao{
+.apresentacao {
+    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo { 
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+}
+
+img {
+    width: 20em;  
 }
