@@ -83,7 +83,9 @@ body {
 }
 
 img {
-    width: 20em;  
+    width: 20em;
+    border-radius: 10px;
+    margin-bottom: 28%;  
 }
 
 .cabecalho{
