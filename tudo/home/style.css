@@ -7,12 +7,27 @@
 }
 
 body {
-    height: 100vh; /*interessante para colocar em padrão*/
+    /*height: 100vh;*/ /*interessante para colocar em padrão*/
     background-color: #03071e; 
     color: #f8f9fa;
 
 
 }
+
+.cabecalho{
+    margin: 2% 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.cabecalho a {
+    font-family: "Montserrat", sans-serif;
+    color: #f8f9fa;
+    size: 24px;
+    text-decoration: none;
+}
+
 
 .titulo-destaque {
     color: #d00000;
@@ -66,6 +81,10 @@ body {
     width: 378px;
     border-radius: 8px;
 
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     border: 2px dotted #dc2f02;
@@ -87,21 +106,6 @@ img {
     border-radius: 10px;
     margin-bottom: 28%;  
 }
-
-.cabecalho{
-    margin: 2% 15%;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-}
-
-.cabecalho a {
-    font-family: "Montserrat", sans-serif;
-    color: #f8f9fa;
-    size: 24px;
-    text-decoration: none;
-}
-
 
 .texto-destaque-tres {
     display: flex;
