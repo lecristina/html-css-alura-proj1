@@ -40,7 +40,7 @@ body {
 .apresentacao__conteudo__titulo { 
     font-size: 36px;
     font-family: "Krona One", sans-serif;
-    line-height: 56px;
+    line-height: 56px; /*Tamanho da linha*/
 
 
 }
@@ -52,8 +52,8 @@ body {
 
 .apresentacao__conteudo__links {
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 32px;
+    flex-wrap: wrap;/*preenche todo o espaço pedido, se nao for possivel, eles quebram de linha*/
+    row-gap: 32px;/*Adiciona espaçamento entre os blocos verticalmente*/
     flex-direction: column;
     align-content: center;
 
@@ -68,7 +68,7 @@ body {
 
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    border:1px solid #dc2f02;
+    border: 2px dotted #dc2f02;
     color: #f8f9fa;
     font-size: 24px;
     text-align: center;
@@ -113,6 +113,12 @@ img {
     font-size: 24px;
 }
 
+.asset{
+    width: 32px;
+    margin: 0;
+    display: inline;
+}
+
 .rodape {
     border: 1px solid #d00000;
     padding: 23px;
@@ -122,3 +128,14 @@ img {
     justify-content: center;
     font-weight: bold;
 }
+
+
+
+
+/*EXEMPLOS E EXPLICAÇÕES DE ESTILIZAÇÃO
+
+.container {
+margin: 20%;	 adiciona uma margem para centralizar os quadrados na tela
+display: flex;	 coloca os quadrados lado a lado 
+gap: 10px;	 adiciona espaços iguais entre cada quadrado 
+*/
